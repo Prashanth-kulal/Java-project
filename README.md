@@ -41,15 +41,16 @@ This project is built using Java with a MySQL backend for database management. I
 
 The system uses the following tables to store and manage data:
 1.EMP_INFO:
+
 ▫️Contains information about hospital employees.
 
-CREATE TABLE emp_info (
-    Name varchar(50) DEFAULT NULL,
-    Age int DEFAULT NULL,
-    Phone_Number varchar(15) DEFAULT NULL,
-    Salary decimal(10,2) DEFAULT NULL,
-    Gmail varchar(100) DEFAULT NULL,
-    Aadhar_Number varchar(20) DEFAULT NULL
+CREATE TABLE 'emp_info' (
+    'Name' varchar(50) DEFAULT NULL,
+    'Age' int DEFAULT NULL,
+    'Phone_Number' varchar(15) DEFAULT NULL,
+    'Salary' decimal(10,2) DEFAULT NULL,
+    'Gmail' varchar(100) DEFAULT NULL,
+    'Aadhar_Number' varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 2.Department:
