@@ -1,5 +1,7 @@
 🏥 Hospital Management System💉💉🛌🏼
+
 📜 Overview
+
 The Hospital Management System is a comprehensive desktop application designed to efficiently manage the day-to-day operations of a hospital. This system provides various modules for managing patient information, employee records, room allocations, and other hospital-related functionalities. It helps hospital staff quickly retrieve and update data, ensuring smooth operations and improved patient care.
 
 This project is built using Java with a MySQL backend for database management. It features a graphical user interface (GUI) using Swing components, providing an easy-to-use platform for hospital administration.
@@ -41,13 +43,13 @@ The system uses the following tables to store and manage data:
 1.EMP_INFO:
 ▫️Contains information about hospital employees.
 
-CREATE TABLE `emp_info` (
-    `Name` varchar(50) DEFAULT NULL,
-    `Age` int DEFAULT NULL,
-    `Phone_Number` varchar(15) DEFAULT NULL,
-    `Salary` decimal(10,2) DEFAULT NULL,
-    `Gmail` varchar(100) DEFAULT NULL,
-    `Aadhar_Number` varchar(20) DEFAULT NULL
+CREATE TABLE emp_info (
+    Name varchar(50) DEFAULT NULL,
+    Age int DEFAULT NULL,
+    Phone_Number varchar(15) DEFAULT NULL,
+    Salary decimal(10,2) DEFAULT NULL,
+    Gmail varchar(100) DEFAULT NULL,
+    Aadhar_Number varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 2.Department:
