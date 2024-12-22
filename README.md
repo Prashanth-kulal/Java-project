@@ -6,33 +6,41 @@ This project is built using Java with a MySQL backend for database management. I
 
 🛠️ Features
 1.Login System 🔑
+
 ▫️Secure login with username and password to authenticate users.
 ▫️On successful login, the user gains access to the hospital management modules.
 
 2.Patient Management 🏥
+
 ▫️Add new patients with their personal details and medical conditions.
 ▫️View all patient information, including their room number, disease, and deposit.
 ▫️Discharge patients and update their room status to available.
 
 3.Employee Management 👨‍⚕️👩‍⚕️
+
 ▫️Manage employee details including name, age, phone number, salary, email, and Aadhar number.
 ▫️View detailed information for all employees working in the hospital.
 
 4.Room Management 🛏️
+
 ▫️Display all rooms in the hospital with details like room number, availability, price, and room type.
 ▫️Update room availability status when a patient is assigned or discharged.
 
 5.Department Management 🏢
+
 ▫️Manage hospital departments with information like department name and contact number.
 
 6.Patient Discharge 🚶‍♀️🚶‍♂️
+
 ▫️Discharge a patient by selecting their patient ID.
 ▫️Update room availability to available when a patient is discharged.
 
 📂 Database Structure
+
 The system uses the following tables to store and manage data:
 1.EMP_INFO:
 ▫️Contains information about hospital employees.
+
 CREATE TABLE `emp_info` (
     `Name` varchar(50) DEFAULT NULL,
     `Age` int DEFAULT NULL,
@@ -43,21 +51,27 @@ CREATE TABLE `emp_info` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 2.Department:
+
 ▫️Stores department names and their contact numbers.
+
 CREATE TABLE `department` (
     `Department` varchar(100) DEFAULT NULL,
     `Phone_no` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 3.Login:
+
 ▫️Contains login credentials for hospital staff and administrators.
+
 CREATE TABLE `login` (
     `ID` varchar(20) DEFAULT NULL,
     `PW` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 4.Patient_Info:
+
 ▫️Stores patient details including ID, name, gender, disease, room number, and deposit.
+
 CREATE TABLE `patient_info` (
     `ID` varchar(20) DEFAULT NULL,
     `Number` varchar(40) DEFAULT NULL,
@@ -70,7 +84,9 @@ CREATE TABLE `patient_info` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 5.Room:
+
 ▫️Stores details about hospital rooms including room number, availability, price, and room type.
+
 CREATE TABLE `room` (
     `room_no` varchar(20) DEFAULT NULL,
     `Availability` varchar(20) DEFAULT NULL,
@@ -79,11 +95,13 @@ CREATE TABLE `room` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 💻 Technologies Used
+
 ▫️Java: For building the application logic and user interface.
 ▫️MySQL: For database management and data storage.
 ▫️Swing: For creating the GUI components of the system.
 
 🛠️ Modules in the System
+
 1.Login: A login page where users (admins or staff) can authenticate using their credentials.
 2.Add New Patient: Allows staff to add a new patient to the system, assign them a room, and capture important details.
 3.All Employee Info: Displays detailed employee information in a table.
@@ -93,6 +111,7 @@ CREATE TABLE `room` (
 7.Update Patient Info: Allows updates to patient information (such as room number, payment details).
 
 🛠️ Setup and Installation
+
 1.Install MySQL: Ensure MySQL server is installed and running.
 
 2.Create Database: Create a database in MySQL using:
