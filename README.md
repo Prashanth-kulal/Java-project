@@ -136,7 +136,7 @@ The project consists of the following classes:
 ## 🗂 **Database Structure**
 The **Hospital Management System** uses the following tables:  
 
-### **1️⃣ Patient_Info**  
+#### **1️⃣ Patient_Info**  
 ```sql
 CREATE TABLE Patient_Info (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -149,8 +149,8 @@ CREATE TABLE Patient_Info (
 );
 
 ---
+
 2️⃣Room
-```sql
 CREATE TABLE room (
     room_number VARCHAR(10) PRIMARY KEY,
     availability VARCHAR(10) NOT NULL,
@@ -159,7 +159,7 @@ CREATE TABLE room (
 );
 
 ---
-
+3️⃣Emp_info
 CREATE TABLE emp_info (
     name VARCHAR(100),
     age INT,
@@ -171,7 +171,7 @@ CREATE TABLE emp_info (
 
 ---
 
-### **4️⃣Departement**
+4️⃣Departement
 CREATE TABLE department (
     department VARCHAR(100),
     phone_number VARCHAR(15)
@@ -179,7 +179,7 @@ CREATE TABLE department (
 
 ---
 
-### **5️⃣Login**
+5️⃣Login
 CREATE TABLE login (
     username VARCHAR(50) PRIMARY KEY,
     password VARCHAR(50) NOT NULL
@@ -187,7 +187,7 @@ CREATE TABLE login (
 
 ---
 
-### **6️⃣Ambulance**
+6️⃣Ambulance
 CREATE TABLE ambulance (
     id INT PRIMARY KEY AUTO_INCREMENT,
     ambulance_no VARCHAR(15) NOT NULL,
@@ -198,7 +198,7 @@ CREATE TABLE ambulance (
 
 ---
 
-### **7️⃣Patient_discharge**
+7️⃣Patient_discharge
 CREATE TABLE patient_discharge (
     patient_id INT PRIMARY KEY,
     discharge_time TIMESTAMP,
@@ -208,7 +208,7 @@ CREATE TABLE patient_discharge (
 
 ---
 
-### **8️⃣Room_search**
+8️⃣Room_search
 ```sql```
 CREATE TABLE room_search (
     room_number VARCHAR(10),
@@ -219,7 +219,7 @@ CREATE TABLE room_search (
 
 ---
 
-### **9️⃣Department_Details**
+9️⃣Department_Details
 CREATE TABLE department_details (
     department_id INT PRIMARY KEY AUTO_INCREMENT,
     department_name VARCHAR(100),
@@ -228,7 +228,7 @@ CREATE TABLE department_details (
 
 ---
 
-### **🔟Ambulance_details**
+🔟Ambulance_details
 CREATE TABLE ambulance_details (
     ambulance_id INT PRIMARY KEY AUTO_INCREMENT,
     ambulance_no VARCHAR(15) NOT NULL,
