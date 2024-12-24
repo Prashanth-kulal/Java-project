@@ -135,9 +135,9 @@ The project consists of the following classes:
 
 ## 🗂 **Database Structure**
 The **Hospital Management System** uses the following tables:  
-
-#### **1️⃣ Patient_Info**  
+ 
 ```sql
+1️⃣ Patient_Info 
 CREATE TABLE Patient_Info (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100),
