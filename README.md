@@ -133,3 +133,108 @@ The project consists of the following classes:
 
 ---
 
+## 🗂 **Database Structure**
+The **Hospital Management System** uses the following tables:  
+
+### **1️⃣ Patient_Info**  
+CREATE TABLE Patient_Info (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    gender VARCHAR(10),
+    disease VARCHAR(100),
+    room_number VARCHAR(10),
+    check_in_time TIMESTAMP,
+    deposit DOUBLE
+);
+
+---
+
+### **2️⃣Room**
+CREATE TABLE room (
+    room_number VARCHAR(10) PRIMARY KEY,
+    availability VARCHAR(10) NOT NULL,
+    price DOUBLE NOT NULL,
+    bed_type VARCHAR(20) NOT NULL
+);
+
+---
+
+### **3️⃣Employee_info**
+CREATE TABLE emp_info (
+    name VARCHAR(100),
+    age INT,
+    phone_number VARCHAR(15),
+    salary DOUBLE,
+    gmail VARCHAR(100),
+    aadhar_number VARCHAR(20)
+);
+
+---
+
+### **4️⃣Departement**
+CREATE TABLE department (
+    department VARCHAR(100),
+    phone_number VARCHAR(15)
+);
+
+---
+
+### **5️⃣Login**
+CREATE TABLE login (
+    username VARCHAR(50) PRIMARY KEY,
+    password VARCHAR(50) NOT NULL
+);
+
+---
+
+### **6️⃣Ambulance**
+CREATE TABLE ambulance (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    ambulance_no VARCHAR(15) NOT NULL,
+    driver_name VARCHAR(100),
+    phone_number VARCHAR(15),
+    availability VARCHAR(15)
+);
+
+---
+
+### **7️⃣Patient_discharge**
+CREATE TABLE patient_discharge (
+    patient_id INT PRIMARY KEY,
+    discharge_time TIMESTAMP,
+    room_number VARCHAR(10),
+    amount_paid DOUBLE
+);
+
+---
+
+### **8️⃣Room_search**
+```sql```
+CREATE TABLE room_search (
+    room_number VARCHAR(10),
+    availability VARCHAR(10),
+    price DOUBLE,
+    bed_type VARCHAR(20)
+);
+
+---
+
+### **9️⃣Department_Details**
+CREATE TABLE department_details (
+    department_id INT PRIMARY KEY AUTO_INCREMENT,
+    department_name VARCHAR(100),
+    contact_number VARCHAR(15)
+);
+
+---
+
+### **🔟Ambulance_details**
+CREATE TABLE ambulance_details (
+    ambulance_id INT PRIMARY KEY AUTO_INCREMENT,
+    ambulance_no VARCHAR(15) NOT NULL,
+    driver_name VARCHAR(100),
+    phone_number VARCHAR(15),
+    availability VARCHAR(15)
+);
+
+
