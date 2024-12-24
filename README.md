@@ -137,6 +137,7 @@ The project consists of the following classes:
 The **Hospital Management System** uses the following tables:  
 
 ### **1️⃣ Patient_Info**  
+```sql
 CREATE TABLE Patient_Info (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100),
@@ -149,7 +150,6 @@ CREATE TABLE Patient_Info (
 
 ---
 
-### **2️⃣Room**
 CREATE TABLE room (
     room_number VARCHAR(10) PRIMARY KEY,
     availability VARCHAR(10) NOT NULL,
@@ -159,7 +159,6 @@ CREATE TABLE room (
 
 ---
 
-### **3️⃣Employee_info**
 CREATE TABLE emp_info (
     name VARCHAR(100),
     age INT,
