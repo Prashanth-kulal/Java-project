@@ -149,7 +149,8 @@ CREATE TABLE Patient_Info (
 );
 
 ---
-
+2️⃣Room
+```sql
 CREATE TABLE room (
     room_number VARCHAR(10) PRIMARY KEY,
     availability VARCHAR(10) NOT NULL,
