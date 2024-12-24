@@ -148,7 +148,7 @@ CREATE TABLE Patient_Info (
     deposit DOUBLE
 );
 
----
+
 
 2️⃣Room
 CREATE TABLE room (
@@ -158,7 +158,8 @@ CREATE TABLE room (
     bed_type VARCHAR(20) NOT NULL
 );
 
----
+
+
 3️⃣Emp_info
 CREATE TABLE emp_info (
     name VARCHAR(100),
@@ -169,7 +170,7 @@ CREATE TABLE emp_info (
     aadhar_number VARCHAR(20)
 );
 
----
+
 
 4️⃣Departement
 CREATE TABLE department (
@@ -177,7 +178,7 @@ CREATE TABLE department (
     phone_number VARCHAR(15)
 );
 
----
+
 
 5️⃣Login
 CREATE TABLE login (
@@ -185,7 +186,7 @@ CREATE TABLE login (
     password VARCHAR(50) NOT NULL
 );
 
----
+
 
 6️⃣Ambulance
 CREATE TABLE ambulance (
@@ -196,7 +197,7 @@ CREATE TABLE ambulance (
     availability VARCHAR(15)
 );
 
----
+
 
 7️⃣Patient_discharge
 CREATE TABLE patient_discharge (
@@ -206,10 +207,9 @@ CREATE TABLE patient_discharge (
     amount_paid DOUBLE
 );
 
----
+
 
 8️⃣Room_search
-```sql```
 CREATE TABLE room_search (
     room_number VARCHAR(10),
     availability VARCHAR(10),
@@ -217,7 +217,7 @@ CREATE TABLE room_search (
     bed_type VARCHAR(20)
 );
 
----
+
 
 9️⃣Department_Details
 CREATE TABLE department_details (
@@ -226,7 +226,7 @@ CREATE TABLE department_details (
     contact_number VARCHAR(15)
 );
 
----
+
 
 🔟Ambulance_details
 CREATE TABLE ambulance_details (
