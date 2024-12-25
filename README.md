@@ -133,7 +133,7 @@ The project consists of the following classes:
 
 ---
 
-[![Watch the video](https://img.youtube.com/vi/-Ze7juzBPRSn5j9f/hqdefault.jpg)](https://www.youtube.com/watch?v=-Ze7juzBPRSn5j9f)
+## **watch video**:
 
 ---
 
