@@ -137,7 +137,7 @@ The project consists of the following classes:
 [Watch my YouTube video](https://www.youtube.com/watch?v=JA1ud343osc)
 
 
-## **Contibutors**:
+## **Contributors**:
 - [Prakhyath Nayak](https://github.com/PrakhyathNayak/Project-java)
 - [Prithesh R shetty](https://github.com/Prithesh-R-Shetty/Java.git)
 - [Poorvik acharya](https://github.com/Poorvik-acharya/java1)
