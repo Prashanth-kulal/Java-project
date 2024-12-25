@@ -136,10 +136,15 @@ The project consists of the following classes:
 ## **📽️🎥project demo video**:
 [Watch my YouTube video](https://www.youtube.com/watch?v=JA1ud343osc)
 
----
 
 ## **Contibutors**:
-[Prakhyath Nayak](https://github.com/Prithesh-R-Shetty/Java.git)
+[Prakhyath Nayak](https://github.com/PrakhyathNayak/Project-java)
+[Prithesh R shetty](https://github.com/Prithesh-R-Shetty/Java.git)
+[Poorvik acharya](https://github.com/Poorvik-acharya/java1)
+[Prashanth kulal](https://github.com/Prashanth-kulal)
+
+---
+
 ## 🗂 **Database Structure**
 The **Hospital Management System** uses the following tables:  
  
