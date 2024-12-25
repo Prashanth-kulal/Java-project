@@ -138,7 +138,8 @@ The project consists of the following classes:
 
 ---
 
-
+## **Contibutors**:
+[Prakhyath Nayak](https://github.com/Prithesh-R-Shetty/Java.git)
 ## 🗂 **Database Structure**
 The **Hospital Management System** uses the following tables:  
  
@@ -243,4 +244,5 @@ CREATE TABLE ambulance_details (
     availability VARCHAR(15)
 );
 
+---
 
