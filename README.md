@@ -141,7 +141,7 @@ The project consists of the following classes:
 - [Prakhyath Nayak](https://github.com/PrakhyathNayak/Project-java)
 - [Prithesh R shetty](https://github.com/Prithesh-R-Shetty/Java.git)
 - [Poorvik acharya](https://github.com/Poorvik-acharya/java1)
-- [Prashanth kulal](https://github.com/Prashanth-kulal)
+- [Prashanth kulal](https://www.linkedin.com/in/prashanth-kulal-10266328b)
 
 ---
 
