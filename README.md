@@ -143,6 +143,10 @@ The project consists of the following classes:
 - [Poorvik acharya](https://github.com/Poorvik-acharya/java1)
 - [Prashanth kulal](https://www.linkedin.com/in/prashanth-kulal-10266328b)
 
+
+## Acknowledgments  
+**Special thanks to [Techcoder A.V](https://youtu.be/5mmFqekO81c?si=mHEx7ejyN_uODoFS) for their helpful guidance.**
+
 ---
 
 ## 🗂 **Database Structure**
